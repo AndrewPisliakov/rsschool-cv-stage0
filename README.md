@@ -1,1 +1,1 @@
-# rsschool-cv
+https://First-quantum-mind.github.io/rsschool-cv/cv
