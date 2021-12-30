@@ -26,12 +26,6 @@ body {
     border: 1px solid blue;
 }
 
-.container{
-    max-width: 1140px;
-    background-color: tomato;
-    margin: 0 auto;
-}
-
 .nav-list {
     display: flex;
     justify-content: flex-end;
@@ -50,6 +44,13 @@ body {
 }
 
 .nav-item a:hover {
+
     color: tomato;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
 }
 
