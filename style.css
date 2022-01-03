@@ -17,10 +17,12 @@ body {
     background-color: #373f29;
 
 }
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
-
+    border-bottom: 2px solid #CD5C5C;
+    padding: 0 0 40px 0;
 }
 
 .nav-list {
@@ -42,16 +44,16 @@ body {
 }
 
 .nav-item a:hover {
-
     color: tomato;
     font-size: 20px;
     font-weight: 500;
 }
 
-img {
+.profile-img img {
+    text-align: center;
+    border-radius: 100%;
     width: 200px;
     height: 200px;
-    border-radius: 100%;
 }
 
 .container {
@@ -66,8 +68,14 @@ img {
 @media (max-width: 768px) {
     .section {
         width: 100%;
+        padding: 5px;
+    }
+
+    .section-profile {
+        flex-direction: column;
     }
 }
+
 
 h2 {
     color: AntiqueWhite;
@@ -82,6 +90,7 @@ h2 {
     width: 100%;
     padding: 20px;
 }
+
 h1 {
     font-size: 32px;
 }
@@ -90,7 +99,7 @@ h1, .secton-subtitle {
     margin: 0;
     font-weight: 100;
     text-transform: uppercase;
-    color: #CD5C5C;   
+    color: #CD5C5C;
 }
 
 .secton-subtitle {
@@ -102,7 +111,67 @@ h1, .secton-subtitle {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    align-items: center; 
-
+    align-items: center;
 }
 
+.contact-link {
+    text-decoration: none;
+    color: AntiqueWhite;
+    font-weight: 100;
+    transition: .3s;
+}
+
+
+.contact-item {
+    padding: 5px;
+}
+
+.contact-item a:hover {
+    color: #CD5C5C;
+}
+
+.summary-description {
+    color: AntiqueWhite;
+    font-weight: 100;
+}
+
+.common-list {
+    list-style: square;
+    color: #CD5C5C;
+}
+
+.common-text {
+    color: AntiqueWhite;
+    font-weight: 100;
+}
+
+.technical-item {
+    padding: 5px;
+}
+
+.code-description {
+    margin: 0;
+    display: block;
+    color: AntiqueWhite;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.rsscool-img {
+    width: 86px;
+    height: 32px;
+}
+
+.footer-text {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
