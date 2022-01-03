@@ -175,3 +175,7 @@ h1, .secton-subtitle {
     font-weight: 500;
     letter-spacing: 5px;
 }
+
+.footer-github a:hover {
+    color: #CD5C5C;
+}
