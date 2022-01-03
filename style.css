@@ -36,6 +36,7 @@ body {
     text-decoration: none;
     color: #CD5C5C;
     font-size: 18px;
+    font-weight: 300;
     text-transform: capitalize;
     transition: .3s;
 }
@@ -44,6 +45,7 @@ body {
 
     color: tomato;
     font-size: 20px;
+    font-weight: 500;
 }
 
 img {
@@ -70,6 +72,7 @@ img {
 h2 {
     color: AntiqueWhite;
     text-transform: uppercase;
+    font-weight: 300;
 }
 
 
@@ -85,8 +88,13 @@ h1 {
 
 h1, .secton-subtitle {
     margin: 0;
+    font-weight: 100;
     text-transform: uppercase;
     color: #CD5C5C;   
+}
+
+.secton-subtitle {
+    font-weight: 300;
 }
 
 .profile-header {
@@ -97,3 +105,4 @@ h1, .secton-subtitle {
     align-items: center; 
 
 }
+
